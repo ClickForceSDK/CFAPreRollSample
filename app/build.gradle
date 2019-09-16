@@ -29,5 +29,5 @@ dependencies {
     compile 'com.google.ads.interactivemedia.v3:interactivemedia:3.7.2'
     compile 'com.google.android.gms:play-services-ads:10.2.4'
     testCompile 'junit:junit:4.12'
-    compile files('libs/MFAD-3.2.0.jar')
+    compile files('libs/MFAD-3.2.1.jar')
 }
