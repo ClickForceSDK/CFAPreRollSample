@@ -1,12 +1,14 @@
 package com.force.click.cfaprerollsample;
 
 import android.content.res.Configuration;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
 import com.clickforce.ad.Listener.PreRollViewLinstener;
 import com.clickforce.ad.PreRollAdView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private PreRollAdView preRollAdView;
