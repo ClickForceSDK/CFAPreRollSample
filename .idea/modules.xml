@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CFAPreRollSample.iml" filepath="$PROJECT_DIR$/CFAPreRollSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CFAPreRollSample.app.unitTest.iml" />
     </modules>
   </component>
 </project>

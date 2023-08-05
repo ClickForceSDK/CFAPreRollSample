@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         preRollAdView = (PreRollAdView) this.findViewById(R.id.preroll);
-        preRollAdView.setAdTagUrl(String.valueOf("4397"));
+        preRollAdView.setAdTagUrl(String.valueOf("12271"));
         preRollAdView.setAdPlay(this);
+        preRollAdView.setIsVolume(true);
 
         preRollAdView.setOnPreRollViewLoaded(new PreRollViewLinstener() {
             @Override
@@ -32,6 +33,19 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (preRollAdView != null) preRollAdView.resume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (preRollAdView != null) preRollAdView.pause();
 
     }
 
